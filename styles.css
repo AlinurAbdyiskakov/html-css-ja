@@ -42,3 +42,18 @@ body {
     color: #0082f3;
   }
   /* sitbor */
+  .sitbor p {
+    background-color: #39cdcc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 6px 6px 0px;
+    transform: rotate(90deg);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    font-family: "Work Sans", sans-serif;
+    width: 86px;
+    height: 20px;
+    padding: 13px 25px;
+    margin-left: -52px;
+    margin-top: 60px;
+  }
