@@ -12,3 +12,10 @@ body {
     margin-left: 100px;
   }
   /* nav */
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 130px;
+    margin-top: 45px;
+  }
