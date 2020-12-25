@@ -148,3 +148,7 @@ section article {
     align-items: center;
     flex-direction: column;
   }
+  section article .img1 {
+    background-color: #582eff;
+    height: 10px;
+  }
