@@ -92,3 +92,7 @@ body {
   color: #333333;
 }
 /* conteiner2 */
+#top2 .flex5 p {
+    max-width: 300px;
+    text-align: justify;
+  }
