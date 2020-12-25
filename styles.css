@@ -235,4 +235,10 @@ section article {
       rgba(255, 61, 133, 1) 150%
     );
     padding: 5px;
+  }li:hover{
+    background-color: green;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
   }
