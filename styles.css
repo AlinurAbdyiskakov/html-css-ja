@@ -24,3 +24,12 @@ body {
     margin-right: 30px;
   }
   /* nav and ul li */
+  nav ul li a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    font-family: "Work Sans", sans-serif;
+  
+    color: #222222;
+  }
