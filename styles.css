@@ -210,4 +210,13 @@ section article {
     padding: 30px;
   }footer ul {
     list-style: none;
+  }footer img{width: 150px;height: 50px;}
+  footer ul li {
+    margin-bottom: 5px;
+    font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
   }
