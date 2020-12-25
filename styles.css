@@ -157,4 +157,13 @@ section article {
   }section article .img3 {
     background-color: #31c5a1;
     height: 10px;
+  }section article h3 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
   }
