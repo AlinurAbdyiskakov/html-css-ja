@@ -208,4 +208,6 @@ section article {
     background-color: #ffffff;
     height: 150px;
     padding: 30px;
+  }footer ul {
+    list-style: none;
   }
