@@ -82,3 +82,12 @@ body {
   line-height: 35px;
   color: #333333;
 }
+.flex2 h1,
+.flex5 h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 60px;
+  color: #333333;
+}
