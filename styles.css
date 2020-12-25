@@ -69,4 +69,7 @@ body {
   }
   #top1 .flex2 h1 {
     max-width: 300px;
+  }#top1 .flex2 p {
+    max-width: 500px;
+    text-align: justify;
   }
