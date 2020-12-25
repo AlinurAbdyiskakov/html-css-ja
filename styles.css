@@ -202,3 +202,10 @@ section article {
     border-radius: 5px;
   }
   /* footer  */
+  footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 150px;
+    padding: 30px;
+  }
