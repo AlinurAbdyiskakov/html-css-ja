@@ -122,3 +122,10 @@ body {
     color: #333333;
   }
   /* section */
+  section {
+    display: flex;
+    max-width: 997px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+  
