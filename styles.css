@@ -151,4 +151,7 @@ section article {
   section article .img1 {
     background-color: #582eff;
     height: 10px;
+  }section article .img2 {
+    background-color: #ff814a;
+    height: 10px;
   }
