@@ -19,3 +19,7 @@ body {
     margin-left: 130px;
     margin-top: 45px;
   }
+  header nav ul li a {
+    text-decoration: none;
+    margin-right: 30px;
+  }
