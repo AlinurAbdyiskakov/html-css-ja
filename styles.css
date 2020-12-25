@@ -67,3 +67,6 @@ body {
   #top1 .flex3 img {
     margin-top: -120px;
   }
+  #top1 .flex2 h1 {
+    max-width: 300px;
+  }
