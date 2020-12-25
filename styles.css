@@ -110,3 +110,14 @@ body {
     justify-content: space-evenly;
     margin-top: 170px;
   }
+  .flex6 h1 {
+    font-family: "Work Sans", sans-serif;
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+  
+    text-align: center;
+    color: #333333;
+  }
