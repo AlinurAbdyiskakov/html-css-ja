@@ -135,3 +135,10 @@ p {
   justify-content: center;
   text-align: center;
 }
+section article {
+    height: 340px;
+    flex: 1 1 calc(33.33% - 100px);
+    margin: 0 10px 25px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(78, 75, 75);
+  }
