@@ -142,3 +142,9 @@ section article {
     border-radius: 3px;
     box-shadow: 0 0 5px 1px rgb(78, 75, 75);
   }
+  section article  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
