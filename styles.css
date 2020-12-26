@@ -323,8 +323,4 @@ li:hover {
     display: flex;
     flex-wrap: wrap;
   }
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
