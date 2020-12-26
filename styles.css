@@ -152,22 +152,23 @@ section article {
   align-items: center;
   flex-direction: column;
 }
-section article div{margin-top: 0;}
+section article div{margin-top: 0;
+}
 section article .img1 {
-  height: 10px;
+  height: 12px;
   background-color: #582EFF;
-  width: 100px;
+  width: 294px;
 }
 section article img{margin-top: 30px;}
 section article .img2 {
   background-color: #ff814a;
-  height: 10px;
-  width: 100px;
+  height: 12px;
+  width: 294px;
 }
 section article .img3 {
   background-color: #31c5a1;
-  height: 10px;
-  width: 100px;
+  height: 12px;
+  width: 294px;
 }
 section article h2 {
   font-family: "Work Sans", sans-serif;
