@@ -141,10 +141,9 @@ p {
 section article {
   height: 310px;
   flex: 1 1 calc(33.33% - 100px);
-
   margin: 0 10px 25px;
-
   box-shadow: 1px 0px 10px #b7b7b7;
+  padding: 0 5px 5px 5px ;
 }
 section article {
   display: flex;
@@ -204,6 +203,9 @@ nav li a:hover {
   border: 2px dashed green;
   padding:3px;
   border-radius: 4px;
+}
+button img:hover{
+  margin: 5px ;border: 5px dotted blue; border-radius: 10px;
 }
 /* main */
 main {
