@@ -195,6 +195,11 @@ section .img4 img {
   margin-top: 150px;
 }
 /* hover */
+footer li:hover{
+  border: 2px solid rgb(105, 101, 101);
+  padding: 5px;
+  border-radius: 5px;
+}
 /* main */
 main {
   margin-top: 20px;
