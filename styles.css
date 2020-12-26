@@ -252,12 +252,12 @@ li:hover {
     display: flex;
     flex-direction: column;
   }
-  header h1 {
-    margin-left: 50px;
+  header span {
+    margin-left: 60px;
   }
   header nav ul {
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   #top1 {
     display: flex;
