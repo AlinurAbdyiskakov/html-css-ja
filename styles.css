@@ -139,7 +139,7 @@ p {
   text-align: center;
 }
 section article {
-  height: 340px;
+  height: 310px;
   flex: 1 1 calc(33.33% - 100px);
 
   margin: 0 10px 25px;
@@ -152,7 +152,8 @@ section article {
   align-items: center;
   flex-direction: column;
 }
-section article div{margin-top: -20px;
+section article div{display: flex;
+  align-items: flex-start;
 }
 section article .img1 {
   height: 12px;
@@ -170,6 +171,7 @@ section article .img3 {
   height: 12px;
   width: 294px;
 }
+section article img{margin-top: 30px;}
 section article h2 {
   font-family: "Work Sans", sans-serif;
   margin-top: 50px;
