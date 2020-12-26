@@ -152,7 +152,7 @@ section article {
   align-items: center;
   flex-direction: column;
 }
-section article div{margin-top: 0;
+section article div{margin-top: -20px;
 }
 section article .img1 {
   height: 12px;
