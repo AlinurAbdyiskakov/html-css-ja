@@ -298,7 +298,15 @@ section article {
     }
     footer {
       display: flex;
-      flex-direction: column;
+    
+      flex-wrap: wrap;
       margin-top: 150px;
+    }
+  }
+  @media(max-width:900px){
+    section article{display: flex;flex-wrap: wrap;}
+    footer{
+      display: flex;
+      flex-wrap: wrap;
     }
   }
