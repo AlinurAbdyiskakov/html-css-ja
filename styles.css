@@ -307,7 +307,7 @@ footer ul li {
 }
 
 /* @media */
-@media (max-width: 1100px) {
+@media (max-width: 1080px) {
   .section {
     flex-wrap: wrap;
   }
@@ -357,8 +357,11 @@ footer ul li {
     margin-bottom: 10px;
     margin-left: 90px;
   }
+  .section .img4{
+    margin-top: 5px;
+  }
   .section .img4 img {
-    margin-top: 10px;
+    margin-top: -1px;
   }
   .section {
     display: flex;
@@ -366,6 +369,7 @@ footer ul li {
     align-items: center;
   }
   .section article {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,15 +378,16 @@ footer ul li {
   }
   .section article .img1 {
     margin-top: 0px;
-    margin-left: -3px;
+    width: 300px;
   }
   .section article .img2 {
     margin-top: 0px;
-    margin-left: -3px;
+    width: 300px;
   }
   .section article .img3 {
+    width: 300px;
     margin-top: 0px;
-    margin-left: -3px;
+  
   }
 
   main p,
