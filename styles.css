@@ -289,6 +289,10 @@ footer {
   height: 150px;
   padding: 30px;
 }
+
+   
+  
+
 footer ul {
   list-style: none;
 }
@@ -307,9 +311,15 @@ footer ul li {
 }
 
 /* @media */
-@media (max-width: 1080px) {
+@media (max-width: 1035px) {
   .section {
     flex-wrap: wrap;
+  } 
+  .section article .img2{
+    margin-top: -45px;
+  }
+  .section article .img3{
+    margin-top: -62px;
   }
 }
 
