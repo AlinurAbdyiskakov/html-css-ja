@@ -128,20 +128,20 @@ nav ul .flex1 a {
   color: #333333;
 }
 /* section */
-section {
+.section {
   display: flex;
   max-width: 1097px;
   margin: 0 auto;
   margin-top: 60px;
 }
-section article img,
+.section article img,
 h2,
 p {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-section article {
+.section article {
   height: 327px;
   width: 288px;
   flex: 1 1 calc(33.33% - 100px);
@@ -149,17 +149,17 @@ section article {
   box-shadow: 1px 0px 10px #b7b7b7;
   padding: 0 5px 5px 5px;
 }
-section article {
+.section article {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-section article div {
+.section article div {
   display: flex;
   align-items: flex-start;
 }
-section article .img1 {
+.section article .img1 {
   margin-top: -45px;
 
   height: 12px;
@@ -167,22 +167,22 @@ section article .img1 {
   width: 299px;
 }
 
-section article .img2 {
+.section article .img2 {
   margin-top: -23px;
   background-color: #ff814a;
   height: 12px;
   width: 297px;
 }
-section article .img3 {
+.section article .img3 {
   margin-top: -40px;
   background-color: #31c5a1;
   height: 12px;
   width: 297px;
 }
-section article img {
+.section article img {
   margin-top: 30px;
 }
-section article h2 {
+.section article h2 {
   font-family: "Work Sans", sans-serif;
   margin-top: 50px;
   font-style: normal;
@@ -192,7 +192,7 @@ section article h2 {
   text-align: center;
   color: #333333;
 }
-section article p {
+.section article p {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -201,7 +201,7 @@ section article p {
   line-height: 25px;
   text-align: center;
 }
-section .img4 img {
+.section .img4 img {
   margin-top: 150px;
 }
 /* hover */
@@ -277,7 +277,7 @@ footer ul li {
 
 /* @media */
 @media (max-width: 1100px) {
-  section {
+  .section {
     flex-wrap: wrap;
   }
 }
@@ -326,30 +326,30 @@ footer ul li {
     margin-bottom: 10px;
     margin-left: 90px;
   }
-  section .img4 img {
+  .section .img4 img {
     margin-top: 10px;
   }
-  section {
+  .section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section article {
+  .section article {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 292px;
   }
-  section article .img1 {
+  .section article .img1 {
     margin-top: 0px;
     margin-left: -3px;
   }
-  section article .img2 {
+  .section article .img2 {
     margin-top: 0px;
     margin-left: -3px;
   }
-  section article .img3 {
+  .section article .img3 {
     margin-top: 0px;
     margin-left: -3px;
   }
