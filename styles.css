@@ -157,9 +157,10 @@ section article div{display: flex;
 }
 section article .img1 {
   margin-top: -55px;
+  
   height: 12px;
   background-color: #582EFF;
-  width: 297px;
+  width: 299px;
 }
 
 section article .img2 {
@@ -267,6 +268,7 @@ footer ul li {
 }
 
 /* @media */
+
 @media (max-width: 700px) {
   header {
     display: flex;
@@ -323,7 +325,17 @@ footer ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
+    width: 292px;
+  }
+  section article .img1{
+    margin-top: 0px;
+    margin-left: -3px;
+  }
+  section article .img2{
+    margin-top: 0px; margin-left: -3px;
+  }
+  section article .img3{
+    margin-top: 0px; margin-left: -3px;
   }
 
   main p,
