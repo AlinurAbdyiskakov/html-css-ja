@@ -268,7 +268,13 @@ footer ul li {
 }
 
 /* @media */
-
+@media (max-width:1070px){
+  section article:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0%;
+  }
+}
 @media (max-width: 700px) {
   header {
     display: flex;
