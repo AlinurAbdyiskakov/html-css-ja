@@ -10,7 +10,9 @@ header {
   display: flex;
 }
 header span img {
-  margin-top: 13px;
+  width: 149, 49px;
+  height: 39, 97px;
+  margin-top: 37px;
   margin-left: 100px;
 }
 /* nav */
@@ -144,7 +146,7 @@ section article {
   flex: 1 1 calc(33.33% - 100px);
   margin: 0 10px 25px;
   box-shadow: 1px 0px 10px #b7b7b7;
-  padding: 0 5px 5px 5px ;
+  padding: 0 5px 5px 5px;
 }
 section article {
   display: flex;
@@ -152,30 +154,33 @@ section article {
   align-items: center;
   flex-direction: column;
 }
-section article div{display: flex;
+section article div {
+  display: flex;
   align-items: flex-start;
 }
 section article .img1 {
-  margin-top: -55px;
-  
+  margin-top: -45px;
+
   height: 12px;
-  background-color: #582EFF;
+  background-color: #582eff;
   width: 299px;
 }
 
 section article .img2 {
-  margin-top: -33px;
+  margin-top: -23px;
   background-color: #ff814a;
   height: 12px;
   width: 297px;
 }
 section article .img3 {
-  margin-top: -50px;
+  margin-top: -40px;
   background-color: #31c5a1;
   height: 12px;
   width: 297px;
 }
-section article img{margin-top: 30px;}
+section article img {
+  margin-top: 30px;
+}
 section article h2 {
   font-family: "Work Sans", sans-serif;
   margin-top: 50px;
@@ -199,20 +204,22 @@ section .img4 img {
   margin-top: 150px;
 }
 /* hover */
-footer li:hover{
+footer li:hover {
   border: 2px solid rgb(105, 101, 101);
   padding: 5px;
   border-radius: 5px;
 }
 nav li a:hover {
   border: 2px dashed green;
-  padding:3px;
+  padding: 3px;
   border-radius: 4px;
 }
-button img:hover{
-border: 5px dotted blue; border-radius: 10px;
+button img:hover {
+  border: 1px solid blue;
+  border-radius: 4px;
+  
 }
-section .img4 img{
+ .img4 img {
   border: 3px solid rgb(rgb(66, 66, 182));
 }
 /* main */
@@ -268,13 +275,15 @@ footer ul li {
 }
 
 /* @media */
-@media (max-width:1070px){
-  section article:nth-child(3){
-    display: flex;
+@media (max-width: 1100px) {
+  section {
     flex-wrap: wrap;
-    flex: 1 1 0%;
+  }
+  section  .img4 img:nth-child(2){
+    margin-top: 200px;
   }
 }
+
 @media (max-width: 700px) {
   header {
     display: flex;
@@ -333,15 +342,17 @@ footer ul li {
     flex-direction: column;
     width: 292px;
   }
-  section article .img1{
+  section article .img1 {
     margin-top: 0px;
     margin-left: -3px;
   }
-  section article .img2{
-    margin-top: 0px; margin-left: -3px;
+  section article .img2 {
+    margin-top: 0px;
+    margin-left: -3px;
   }
-  section article .img3{
-    margin-top: 0px; margin-left: -3px;
+  section article .img3 {
+    margin-top: 0px;
+    margin-left: -3px;
   }
 
   main p,
