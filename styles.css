@@ -142,7 +142,7 @@ nav ul .flex1 a {
 h2,
 p {
   display: flex;
-  justify-content: center;
+ justify-content: center;
   text-align: center;
 }
 .section article {
@@ -164,7 +164,7 @@ p {
   align-items: flex-start;
 }
 .section article .img1 {
-  margin-top: -45px;
+  margin-top: -45px; 
 
   height: 12px;
   background-color: #582eff;
@@ -172,12 +172,13 @@ p {
 }
 
 .section article .img2 {
-  margin-top: -20px;
+  margin-top: -20px; 
   background-color: #ff814a;
   height: 12px;
   width: 318px;
 }
 .section article .img3 {
+ 
   margin-top: -40px;
   background-color: #31c5a1;
   height: 12px;
@@ -326,9 +327,14 @@ footer ul li {
     margin-top: -62px ;
   }
 }
-@media(max-width:841) , (max-width:706px){
+@media(max-width:841){
   .section article .img2{
-    margin-top: -45px;
+    margin-top: 5px;
+  }
+}
+@media(max-width:706px){
+  .section article .img2{
+    margin-top: 5px;
   }
 }
 
