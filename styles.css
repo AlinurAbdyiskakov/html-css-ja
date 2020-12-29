@@ -146,7 +146,7 @@ p {
   text-align: center;
 }
 .section article {
-  height: 327px;
+  height: 337px;
   width: 288px;
   flex: 1 1 calc(33.33% - 100%);
   margin: 0 10px 25px;
