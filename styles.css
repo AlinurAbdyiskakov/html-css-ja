@@ -148,7 +148,7 @@ p {
 .section article {
   height: 327px;
   width: 288px;
-  flex: 1 1 calc(33.33% - 100px);
+  flex: 1 1 calc(33.33% - 100%);
   margin: 0 10px 25px;
   box-shadow: 1px 0px 10px #b7b7b7;
   padding: 0 5px 5px 5px;
@@ -178,7 +178,7 @@ p {
   width: 318px;
 }
 .section article .img3 {
-  margin-top: -36px;
+  margin-top: -40px;
   background-color: #31c5a1;
   height: 12px;
   width: 318px;
@@ -224,16 +224,19 @@ footer li:hover {
   border: 2px solid rgb(105, 101, 101);
   padding: 5px;
   border-radius: 5px;
+ 
 }
 nav li a:hover {
   border: 2px dashed green;
   padding: 3px;
   border-radius: 4px;
+
 }
 
 main button .none:hover{
   border: 1.9px solid #3f69ff;
   border-radius: 4px;
+
 }
 button {
   width: 140px;
@@ -243,6 +246,7 @@ button {
 button img:hover {
   border: 1.9px solid #3f69ff;
   border-radius: 4px;margin: 0 0 0 -8px;
+
 }
 .section .img4:hover {
   border: 2.9px solid #9b82ff;
@@ -319,11 +323,16 @@ footer ul li {
     margin-top: -45px;
   }
   .section article .img3{
-    margin-top: -62px;
+    margin-top: -62px ;
+  }
+}
+@media(max-width:841) , (max-width:706px){
+  .section article .img2{
+    margin-top: -45px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   header {
     display: flex;
     flex-direction: column;
@@ -387,16 +396,16 @@ footer ul li {
     width: 292px;
   }
   .section article .img1 {
-    margin-top: 0px;
+    margin-top: 1px ;
     width: 300px;
   }
   .section article .img2 {
-    margin-top: 0px;
+    margin-top: 1px;
     width: 300px;
   }
   .section article .img3 {
     width: 300px;
-    margin-top: 0px;
+    margin-top: 1px;
   
   }
 
