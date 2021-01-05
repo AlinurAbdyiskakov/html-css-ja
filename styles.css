@@ -134,7 +134,7 @@ nav ul .flex1 a {
 /* section */
 .section {
   display: flex;
-  max-width: 1097px;
+  max-width: 999px;
   margin: 0 auto;
   margin-top: 60px;
 }
@@ -236,7 +236,7 @@ nav li a:hover {
 main button .none:hover{
   border: 1.9px solid #3f69ff;
   border-radius: 4px;
-
+overflow: hidden;
 }
 button {
   width: 140px;
