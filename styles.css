@@ -271,7 +271,9 @@ footer li:hover {
 nav li a:hover {
  text-decoration: underline;
 }
-
+.sitbor:hover{
+  margin-left:15px ;
+}
 main button .none:hover{
   border: 1.9px solid #3f69ff;
   border-radius: 4px;
