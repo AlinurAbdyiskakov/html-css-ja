@@ -223,7 +223,6 @@ p {
     justify-content: space-between;
   }
  article img{
-   width: 60px;height: 50px;
    margin: 5px auto;
  }
     .section {
@@ -235,7 +234,6 @@ p {
     }
     article h2 {
       font-family: "Work Sans", sans-serif;
-      
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
@@ -256,9 +254,9 @@ p {
       height:12px;
       background-color: #582eff;
     }
-    .img2 {
+    .img2 { height:12px;
         background-color: #ff814a;}
-        .img3{
+        .img3{ height:12px;
             background-color: #31c5a1;
         }
 /* hover */
