@@ -366,15 +366,11 @@ footer ul li {
 @media (max-width: 650px) {
   header {
     display: flex;
-    flex-direction: column;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
   }
-  header span {
-    margin-left: 60px;
-  }
-  header nav ul {
-    margin-left: 100px;
-    margin-top: 20px;
-  }
+
   #top1 {
     display: flex;
     flex-direction: column;
