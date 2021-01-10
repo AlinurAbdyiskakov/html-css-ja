@@ -224,7 +224,7 @@ button {
 .section .img4:hover {
   border: 2.9px solid #9b82ff;
 
-  margin: 0 auto;
+ 
 }
 /* activ */
 .hoverples img:active{
@@ -353,7 +353,7 @@ footer ul li {
     justify-content: center;
   }
   .section .img4{
-    margin: 0 auto;
+    margin: 1 auto;
   }
 
   main p,
