@@ -294,6 +294,9 @@ button {
   margin: 0 auto;
 }
 /* activ */
+.hoverples img:active{
+  background-color: blue;height: 70px;
+}
 /* main */
 main {
   margin-top: 20px;
