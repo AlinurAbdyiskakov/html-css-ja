@@ -303,10 +303,14 @@ footer ul li {
 
 @media (max-width: 650px) {
   header {
+    margin: 5px auto;
     display: flex;
-    flex-flow: wrap column;
+  flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .sitbor p{
+    margin-top: 50px;
   }
 
   #top1 {
