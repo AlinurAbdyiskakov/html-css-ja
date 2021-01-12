@@ -224,10 +224,12 @@ button {
   border: 1.9px solid #3f69ff;
   border-radius: 4px;margin: 0 0 0 -8px;
 
+
+
 }
 .section .img4:hover {
   border: 2.9px solid #9b82ff;
-
+transition: 0.3s;
  
 }
 /* activ */
