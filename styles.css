@@ -235,6 +235,7 @@ transition: 0.3s;
 /* activ */
 .hoverples img:active{
   background-color: blue;height: 70px;
+  transition: 0.7s;
 }
 /* main */
 main {
