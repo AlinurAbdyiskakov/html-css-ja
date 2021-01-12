@@ -306,7 +306,7 @@ footer ul li {
 
 @media (max-width: 650px) {
   header {
-    margin: 5px auto;
+    
     display: flex;
   flex-direction: column;
     align-items: center;
