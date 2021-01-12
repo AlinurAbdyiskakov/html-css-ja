@@ -213,7 +213,7 @@ nav li a:hover {
 main button .none:hover{
   border: 1.9px solid #3f69ff;
   border-radius: 4px;
-overflow: hidden;
+overflow: hidden;transition: 0.9s;
 }
 button {
   width: 140px;
