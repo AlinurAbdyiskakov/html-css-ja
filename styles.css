@@ -208,6 +208,7 @@ nav li a:hover {
   border-radius: 0px 6px 6px 0px;
   transform: rotate(90deg);
   height: 50px;width: 86px;margin-left: 2px;align-items: center;
+  transition: 0.9s;
 }
 main button .none:hover{
   border: 1.9px solid #3f69ff;
